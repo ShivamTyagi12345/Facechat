@@ -6,7 +6,7 @@ import Notifications from './components/Notifications';
 import Video from "./components/Video";
 
 import {makeStyles} from '@material-ui/core/styles';
-import options from "./components/Options";
+import Options from "./components/Options";
 
 
 
@@ -45,9 +45,9 @@ const App = () => {
                 </Typography>
             </AppBar>
             < Video/>
-            <options>
+            <Options>
                 <Notifications />
-            </options>
+            </Options>
         </div>
     )
 }
