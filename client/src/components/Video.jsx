@@ -28,7 +28,7 @@ const Video = () => {
     
     return (
         <Grid container className={classes.gridContainer}>
-          {sream && (
+          {stream && (
           <Paper className={classes.paper}>
                 <Grid item xs={12} md={6}>
 
